@@ -1,0 +1,40 @@
+//OVERWRITE GLOBAL VARIABLES FROM BOOTSTRAP. 
+//NOTE: If you don't now name of any variables, you can see the name in the inpection on the browser. 
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+
+//COLORS
+// $primary : red;
+// $secondary : green;
+// $info: tomato;
+// $danger: teal;
+// $success : yellow;
+
+
+$body-bg: #000;
+$body-color: #e2dada;
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 8rem; 
+
+$grid-gutter-width : 0.5rem; 
+
+//CREATE OWR GLOBAL VARIABLES ONLY FOR COLORS
+$colors: (
+  "blue": yellow,
+  "indigo": grey,
+  "purple": pink,
+  "pink": red,
+) !default;
+
+
+//CREATE OWR GLOBAL VARIABLES FOR COMPONENTS DE BOOTSTRAP
+$theme-colors: (
+  "custom-color": #900,
+
+);
+
+//IF YOU WANT ADD ADITIONAL PERSONAL SCSS DO IT IN GLOBAL.SCSS
+
+/* import bootstrap to set changes */
+@import './../../node_modules/bootstrap/scss/bootstrap';
+
+

@@ -36,6 +36,9 @@ export default function Home() {
       <Button variant="pink">Secondary</Button>
         </Col>
       </Row>
+      <Row className='p-1'>
+        <Button variant="custom-color">Primary</Button>
+      </Row>
     </Container>
   );
 }
